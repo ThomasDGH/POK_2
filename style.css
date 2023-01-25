@@ -1,0 +1,256 @@
+/* STYLE POUR PAGE INDEX */
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 0;
+}
+
+body{
+    color: #414141;
+    /* Dark gray */
+    background: linear-gradient(rgb(53, 190, 34),#c6dfd4,rgb(51, 54, 50));
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Light gray */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.data{
+  position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 100vh solid lightblue ;
+  border-left: 50vw solid lightblue;
+  border-bottom: 100vh solid transparent;
+  border-right: 50vw solid transparent;
+  
+  }
+
+.data_text{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 700px;
+  height: 700px;
+  bottom: 100vh;
+  right: 40vw;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.dev{
+  position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 100vh solid transparent;
+  border-left: 50vw solid transparent;
+  border-bottom: 100vh solid lightcoral;
+  border-right: 50vw solid lightcoral;
+}
+
+.dev_text{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 700px;
+  height: 700px;
+  top: 5vh;
+  right: 3vw;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.requete{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  z-index: 3;
+  border-radius: 50%;
+  background-color: rgb(129, 86, 129);
+  cursor: pointer;
+  color:white;
+  top:85vh;
+  left:40vw;
+}
+
+
+/* STYLE POUR PAGE DATA */
+
+body.data{
+  color: #414141;
+  /* Dark gray */
+  background: linear-gradient(rgb(25, 129, 185),#44649e,rgb(10, 2, 46));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Light gray */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/* STYLE POUR PAGE DEV */
+
+body.dev{
+  color: #414141;
+  /* Dark gray */
+  background: linear-gradient(rgb(177, 71, 63),#e88c7a,rgb(148, 1, 1));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Light gray */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* STYLE POUR LES CARROUSELS */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  
+}
+
+.slider {
+  max-width: 100%;
+  display: none;
+  position: relative;
+  color:#000;
+  text-align: center;
+}
+
+.active {
+  display: block;
+  animation: fade 0.8s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cont-btn {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 25vh;
+}
+
+.btn-nav {
+  font-size: 50px;
+  margin: 0 15px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.redirection {
+  text-align: justify;
+  display: flex;
+    
+}
+
+.bouton_retour {
+  position: relative;
+  padding: 20px;
+}
+
+/* STYLE POUR PAGE Requetes */
+
+body.request{
+  color: #414141;
+  /* Dark gray */
+  background: linear-gradient(rgb(164, 46, 177),#c79ad1,rgb(114, 3, 77));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Light gray */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.rq_data{
+  position: relative;
+  color:black;
+  border-radius: 25%;
+  background-color: lightblue;
+  height: 500px;
+  width: 35%;
+  top: 10vh;
+  float:left;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.rq_dev{
+  position: relative;
+  color: black;
+  border-radius: 25%;
+  background-color: lightcoral;
+  height: 500px;
+  width: 35%;
+  top: 10vh;
+  float:left;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+} 
+
+.proposition{
+  padding:50px;
+}
+
+.formulaire{
+  position:relative;
+  height: 500px;
+  width: 30%;
+  top: 10vh;
+  float:left;
+  background-color: rgb(169, 169, 161);
+  padding-left: 25px;
+  border-radius: 25%;
+  padding-top: 40px;
+  color: black;
+} 
