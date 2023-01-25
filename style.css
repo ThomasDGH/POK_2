@@ -170,8 +170,8 @@ body.dev{
   box-shadow: 0 10px 10px rgba(0,0,0,0.3);
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 25vh;
+  position: absolute;
+  bottom: 0;
 }
 
 .btn-nav {
@@ -184,7 +184,6 @@ body.dev{
 .redirection {
   text-align: justify;
   display: flex;
-    
 }
 
 .bouton_retour {
